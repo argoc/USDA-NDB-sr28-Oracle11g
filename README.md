@@ -47,19 +47,19 @@ The script creates the tables in the database. Once it is created, you can acces
 
 ## Issues
 
-If you find a bug, add it to this repo's github issues. Please include the
+If you find a bug, add it to this repo's [github issues](https://github.com/argoc/USDA-NDB-sr28-Oracle11g/issues). Please include the
 information on how to reproduce the bug, and if you have a fix, it would
 be great if you make a pull request to fix it.
 
-Any feature requests or ideas can also go in the issues list.
+Any feature requests or ideas can also go in the [issues list](https://github.com/argoc/USDA-NDB-sr28-Oracle11g/issues).
 
 ## Contributing
 
-1. Fork this repo
+1. Fork [this repo](https://github.com/argoc/USDA-NDB-sr28-Oracle11g)
 2. In your fork, create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request back to this repo
+4. Push to your github repo (`git push origin my-new-feature`)
+5. Create a new pull request back to this repo
 
 Contributions are much appreciated.
 
@@ -67,3 +67,12 @@ Contributions are much appreciated.
 
 None, yet - fix something or enhance this repo, and get the fame of being listed here.
 
+## License
+
+See [LICENSE](https://github.com/argoc/USDA-NDB-sr28-Oracle11g/blob/master/LICENSE)
+
+## Sources
+
+1. "USDA National Nutrient Database for Standard Reference". http://ndb.nal.usda.gov/ accessed 12 March 2016. 
+2. @nmaster 's repo, usdanl-sr28-mysql. https://github.com/nmaster/usdanl-sr28-mysql  accessed 12 March 2016.
+3. "Oracle Database Express Edition 11G Release 2". http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html accessed 12 March 2016.
