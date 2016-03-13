@@ -29,14 +29,14 @@ Once you have met the requirements:
 * create a database using the Oracle tools (Application Express or SQL*Plus); note the user and password needed to connect to that database.
 * open a command window on that directory, and in that window:
 * set ORA_USER and ORA_PASSWORD to a user that can connect to your database:
-
-    set ORA_USER=my_user_name
-	set ORA_PASSWORD=my_user_password
-	
+```
+    C:\...> set ORA_USER=my_user_name
+	C:\...> set ORA_PASSWORD=my_user_password
+```	
 * run oracleload.bat, capture the output since it is long:
-
-    .\oracleload.bat 2>&1 > oracleload.log
-	
+```
+    C:\..> .\oracleload.bat 2>&1 > oracleload.log
+```	
 * look through the contents of oracleload.log to make sure there were no errors creating the database or loading the data.
 * look for *.bad files in the current directory; these contain lines from the .txt files that failed to load. If you find any, look at their companion *.log file for error messages.
 * if there were no errors, you are set. Otherwise, analyze the cause of the error to resolve it.
