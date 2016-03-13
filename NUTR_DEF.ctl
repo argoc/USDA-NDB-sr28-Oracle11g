@@ -1,0 +1,5 @@
+LOAD DATA
+ INFILE 'NUTR_DEF.txt'
+ INTO TABLE nutr_def
+ FIELDS TERMINATED BY "^" OPTIONALLY ENCLOSED BY "~" TRAILING NULLCOLS		  
+ (Nutr_No,Units,Tagname,NutrDesc,Num_Dec,SR_Order)
