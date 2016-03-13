@@ -35,7 +35,7 @@ Once you have met the requirements:
 ```	
 * run oracleload.bat, capture the output since it is long:
 ```
-    C:\..> .\oracleload.bat 2>&1 > oracleload.log
+    C:\...> .\oracleload.bat 2>&1 > oracleload.log
 ```	
 * look through the contents of oracleload.log to make sure there were no errors creating the database or loading the data.
 * look for *.bad files in the current directory; these contain lines from the .txt files that failed to load. If you find any, look at their companion *.log file for error messages.
