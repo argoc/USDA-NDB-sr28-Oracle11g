@@ -12,7 +12,7 @@ they may already exist on GitHub - use github search.
 
 If you are looking for the actual datafiles, see the links in Requirements.
 
-##Requirements
+## Requirements
 
 * Windows 7 or newer, with admin privileges so you can install Oracle.
 * Install [Oracle11g](
@@ -22,11 +22,12 @@ the Oracle Tech Network to download the installer.
 * Download the [SR-28 ASCII files](https://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR/SR28/dnload/sr28asc.zip)  (6 MB).
 * You may also want the [SR-28 database description](http://www.ars.usda.gov/SP2UserFiles/Place/80400525/Data/SR/SR28/sr28_doc.pd). It contains additional details of the database contents and layout. 
 
-##Installation
+## Installation
 
 Once you have met the requirements:
 * put the ascii text files in the same directory as the repo files.
 * create a database using the Oracle tools (Application Express or SQL*Plus); note the user and password needed to connect to that database.
+* make sure the oracle bin directory is in your system PATH
 * open a command window on that directory, and in that window:
 * set ORA_USER and ORA_PASSWORD to a user that can connect to your database:
 ```
@@ -41,7 +42,7 @@ Once you have met the requirements:
 * look for *.bad files in the current directory; these contain lines from the .txt files that failed to load. If you find any, look at their companion *.log file for error messages.
 * if there were no errors, you are set. Otherwise, analyze the cause of the error to resolve it.
 
-##Use
+## Use
 
 The script creates the tables in the database. Once it is created, you can access it through Application Express or SQL*Plus as you like. Use the desription of the Nutrient Database to decide what sorts of queries you would like to make over the data.
 
