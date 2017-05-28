@@ -31,7 +31,7 @@ Once you have met the requirements:
 * set ORA_USER and ORA_PASSWORD to a user that can connect to your database:
 ```
     C:\...> set ORA_USER=my_user_name
-	C:\...> set ORA_PASSWORD=my_user_password
+    C:\...> set ORA_PASSWORD=my_user_password
 ```	
 * run oracleload.bat, capture the output since it is long:
 ```
